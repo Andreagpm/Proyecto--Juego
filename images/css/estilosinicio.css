@@ -1,0 +1,26 @@
+body {
+	background-image: url("http://www.anawalls.com/repic/image.php?src=http://www.anawalls.com/images/textures/surface-texture-background-light.jpg&h=800&w=1280");
+}
+#palabra1 {
+	padding-left: 20%;
+	padding-top: 8%;
+}
+#palabra2 {
+	padding-left: 38%;
+}
+#boton {
+	align-content: center;
+	text-align: center;
+	padding-left: 35%;
+	padding-top: 5%;
+}
+#boton1 {
+	padding-top: 5%;
+}
+.oculto{
+   display: none;
+   }
+
+.visible{
+   display: inline;
+   }

@@ -1,0 +1,20 @@
+body {
+	background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/white-paper-texture.jpg");
+}
+#instrucciones {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.flecha {
+	width: 20px;
+	height: 20px;
+}
+.resumen {
+	width: 900px;
+	height: 500px;
+	margin-top: 5em;
+}
+#botoninicio {
+	width: 40px;
+	height: 40px;
+}
