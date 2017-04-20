@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Juego basado en el juego 4 imagenes 1 palabra.">
+	<meta name="keywords" content="juego 4 imagenes 1 palabra, adivinar, juego, palabra">
+	<meta name="author" content="Andrea González Pérez">
+	<meta name="editor" content="Sublime Text">
+	<title>Palabra Oculta</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilosinicio.css">
+</head>
+<body onload="cargarPagina()">
+<div id="contenedor">
+	<img src="images/titulo1.png" alt="palabra" id="palabra1" class="oculto"><br>
+	<img src="images/titulo2.png" alt="oculta" id="palabra2" class="oculto"><br>
+	<img src="images/jugar.png" alt="jugar" onclick="hacerZoom()" id="boton" class="oculto">
+	<a href="instrucciones/ins.html"><img src="images/instrucciones.png" alt="instrucciones" id="boton1" class="oculto"></a>
+</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/paginaprincipal.js"></script>
+</body>
+</html>
