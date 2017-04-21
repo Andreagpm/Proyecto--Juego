@@ -1,0 +1,68 @@
+body {
+	background-image: url("http://www.anawalls.com/repic/image.php?src=http://www.anawalls.com/images/textures/surface-texture-background-light.jpg&h=800&w=1280");
+}
+.oculto{
+   display: none;
+   }
+
+.visible{
+   display: inline;
+   }
+.imagenes {
+	width: 200px;
+	height: 200px;
+	border: 4px solid black;
+	margin-top: 3px;
+}
+#contenedor {
+	align-content: center;
+	text-align: center;
+}
+#respuesta {
+	margin-top: 20px;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+h2 {
+	font-family: 'Graduate', cursive;
+	color: white;
+}
+.campos {
+	border: 2px solid black;
+	padding-top: 3px;
+	margin-right: 10px;
+}
+#x {
+	width: 27px;
+	height: 27px;
+	margin-left: 10px;
+}
+#parrafoerrores {
+	color: black;
+  background-color: white;
+  margin-bottom: 10px;
+}
+#errores {
+	color: black;
+}
+#botoninicio {
+	width: 40px;
+	height: 40px;
+}
+#monedas {
+	width: 30px;
+	height: 30px;
+}
+#monedasparrafo {
+	margin-left: 200px;
+}
+#play {
+	width: 40px;
+	height: 40px;
+	margin-left: 92%;
+}
+input {text-transform: uppercase;}

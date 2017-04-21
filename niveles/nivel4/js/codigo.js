@@ -11,10 +11,7 @@ function validarDatos() {
 		return;
 	}
 
-	if(primero.value == "E"){
-	}if(segundo.value == "S"){
-	}if(tercero.value == "T"){
-	}if(cuarto.value == "E"){
+	if(primero.value == "e" && segundo.value == "s" &&  tercero.value == "t" && cuarto.value == "e"){
 		alert("CORRECTO!");
 		document.getElementById('siguiente').className = "visible";
 		var num3 = inputmonedas.value;
@@ -31,9 +28,9 @@ function validarDatos() {
     suma = parseInt(num1)+parseInt(num2);
     document.getElementById("parrafoerrores").value = suma;
 	}if(parrafoerrores.value == "5"){
-		document.getElementById("segundo").value = "S";
+		document.getElementById("primero").value = "e";
 	}if(parrafoerrores.value == "10"){
-		alert("PISTA: Es una localización geográfica. ");
+		alert("PISTA: Es una localización geográfica.");
 	}
 }
 document.getElementById("inputmonedas").value = localStorage.getItem("monedas");
@@ -47,7 +44,8 @@ function restarMonedas() {
   	var res;
   	res = parseInt(num4)-parseInt(num5);
    	document.getElementById("inputmonedas").value = res;
-		document.getElementById("primero").value = "E";
+		document.getElementById("cuarto").value = "e";
+		letras.disabled = 'disabled';
 	}
 }
 

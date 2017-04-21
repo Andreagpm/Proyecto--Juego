@@ -10,11 +10,7 @@ function validarDatos() {
 			$("#nobacio").fadeOut(4000);
 		return;
 	}
-
-	if(primero.value == "R"){
-	}if(segundo.value == "O"){
-	}if(tercero.value == "J"){
-	}if(cuarto.value == "O"){
+	if(primero.value == "r" && segundo.value == "o" && tercero.value == "j" && cuarto.value == "o"){
 		alert("CORRECTO!");
 		document.getElementById('siguiente').className = "visible";
 		var num3 = inputmonedas.value;
@@ -31,7 +27,7 @@ function validarDatos() {
     suma = parseInt(num1)+parseInt(num2);
     document.getElementById("parrafoerrores").value = suma;
 	}if(parrafoerrores.value == "5"){
-		document.getElementById("segundo").value = "O";
+		document.getElementById("segundo").value = "o";
 	}if(parrafoerrores.value == "10"){
 		alert("PISTA: Es un color.");
 	}
@@ -40,7 +36,13 @@ function restarMonedas() {
 	if(inputmonedas.value <= 4){
 		alert("Necesita 5 monedas o mas para conseguir una letra, si quiere pude ver un video y conseguir 5 monedas mas dandole al play.");
 	}else{
-		document.getElementById("tercero").value = "J";
+		var num4 = inputmonedas.value;
+		var num5 = 5;
+  	var res;
+  	res = parseInt(num4)-parseInt(num5);
+   	document.getElementById("inputmonedas").value = res;
+		document.getElementById("tercero").value = "j";
+		letras.disabled = 'disabled';
 	}
 }
 function monedasVideo() {

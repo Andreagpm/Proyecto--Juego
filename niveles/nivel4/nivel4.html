@@ -8,11 +8,11 @@
 	<meta name="editor" content="Sublime Text">
 	<title>Palabra Oculta - Nivel 4</title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="../css/estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
 </head>
 <body>
-<a href="../../index.html"><img src="images/botoninicio.png" alt="boton inicio" id="botoninicio"></a>
+<a href="../../index.html"><img src="../images/botoninicio.png" alt="boton inicio" id="botoninicio"></a>
 <a href="https://youtu.be/aDyAdqaLSJ4" onclick="monedasVideo()"><img src="../images/play.png" alt="play" id="play"></a>
 <div id="contenedor">
 	<p></p><h2>Nivel 4</h2>
@@ -25,16 +25,16 @@
 		<img src="images/señalar.png" alt="señalar" class="imagenes">
 	</div>
 	<div id="respuesta">
-		<button onclick="restarMonedas()">Letra</button>&nbsp;&nbsp;
-		<input type="text" maxlength="1" size="1" id="primero" name="primero" class="campos" style='text-align:center;'>
-		<input type="text" maxlength="1" size="1" id="segundo" name="segundo" class="campos" style='text-align:center;'>
-		<input type="text" maxlength="1" size="1" id="tercero" name="tercero" class="campos" style='text-align:center;'>
+		<button onclick="restarMonedas()" id="letras" name="letras">Letra</button>&nbsp;&nbsp;
+		<input type="text" maxlength="1" size="1" id="primero" name="primero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) segundo.focus()">
+		<input type="text" maxlength="1" size="1" id="segundo" name="segundo" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) tercero.focus()">
+		<input type="text" maxlength="1" size="1" id="tercero" name="tercero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) cuarto.focus()">
 		<input type="text" maxlength="1" size="1" id="cuarto" name="cuarto" class="campos" style='text-align:center;'>
 		<button onclick="validarDatos()">Comprobar</button>
-		<img src="images/x.png" alt="imagen x" class="oculto" id="x">
+		<img src="../images/x.png" alt="imagen x" class="oculto" id="x">
 	</div><br>
 	<span class="oculto" id="nobacio"><p>No puede dejar los campos en blanco.</p></span>
-	<span class="oculto" id="siguiente"><a href="../nivel2/nivel2.html">Siguiente</a></span>
+	<span class="oculto" id="siguiente"><a href="../nivel5/nivel5.html">Siguiente</a></span>
 </div>
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>

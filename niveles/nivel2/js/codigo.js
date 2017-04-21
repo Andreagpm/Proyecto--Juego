@@ -11,11 +11,7 @@ function validarDatos() {
 		return;
 	}
 
-	if(primero.value === "P"){
-	}if(segundo.value === "U"){
-	}if(tercero.value === "N"){
-	}if(cuarto.value === "T"){
-	}if(quinto.value === "O"){
+	if(primero.value == "p" && segundo.value == "u" && tercero.value == "n" && cuarto.value == "t" && quinto.value == "o"){
 		alert("CORRECTO!");
 		document.getElementById('siguiente').className = "visible";
 		var num3 = inputmonedas.value;
@@ -32,7 +28,7 @@ function validarDatos() {
     suma = parseInt(num1)+parseInt(num2);
     document.getElementById("parrafoerrores").value = suma;
 	}if(parrafoerrores.value == "5"){
-		document.getElementById("tercero").value = "N";
+		document.getElementById("tercero").value = "n";
 	}if(parrafoerrores.value == "10"){
 		alert("PISTA: Es lo que mas predomina en las imagenes.");
 	}
@@ -49,7 +45,8 @@ function restarMonedas() {
   	var res;
   	res = parseInt(num4)-parseInt(num5);
    	document.getElementById("inputmonedas").value = res;
-		document.getElementById("tercero").value = "J";
+		document.getElementById("cuarto").value = "t";
+		letras.disabled = 'disabled';
 	}
 }
 

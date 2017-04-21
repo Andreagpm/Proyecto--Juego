@@ -10,8 +10,7 @@ function validarDatos() {
 			$("#nobacio").fadeOut(4000);
 		return;
 	}
-
-	if(primero.value == "s" && segundo.value == "u" && tercero.value == "a" && cuarto.value == "v" && quinto.value == "e"){
+	if(primero.value == "v" && segundo.value == "o" && tercero.value == "c" && cuarto.value == "a" && quinto.value == "l" && sexto.value == "e" && septimo.value == "s"){
 		alert("CORRECTO!");
 		document.getElementById('siguiente').className = "visible";
 		var num3 = inputmonedas.value;
@@ -28,9 +27,9 @@ function validarDatos() {
     suma = parseInt(num1)+parseInt(num2);
     document.getElementById("parrafoerrores").value = suma;
 	}if(parrafoerrores.value == "5"){
-		document.getElementById("primero").value = "s";
+		document.getElementById("quinto").value = "l";
 	}if(parrafoerrores.value == "10"){
-		alert("PISTA: Se nota con el tacto.");
+		alert("PISTA: fijate bien en las fotos.");
 	}
 }
 document.getElementById("inputmonedas").value = localStorage.getItem("monedas");
@@ -44,11 +43,10 @@ function restarMonedas() {
   	var res;
   	res = parseInt(num4)-parseInt(num5);
    	document.getElementById("inputmonedas").value = res;
-		document.getElementById("quinto").value = "e";
+		document.getElementById("tercero").value = "c";
 		letras.disabled = 'disabled';
 	}
 }
-
 function monedasVideo() {
 		var num5 = inputmonedas.value;
 		var num6 = 5;
