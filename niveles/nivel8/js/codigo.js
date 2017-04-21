@@ -60,3 +60,6 @@ function monedasVideo() {
 function limpiarCampo(elemento) {
  elemento.value = "";
 }
+function enConstruccion(){
+	swal("Gracias por su visita!", "Próximamente introduciremos mas pantallas.");
+}

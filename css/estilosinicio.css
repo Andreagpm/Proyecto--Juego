@@ -24,3 +24,9 @@ body {
 .visible{
    display: inline;
    }
+footer{
+	margin-top: 80px;
+	text-align: right;
+	margin-right: 30px;
+	color: grey;
+}
