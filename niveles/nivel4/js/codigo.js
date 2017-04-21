@@ -12,7 +12,7 @@ function validarDatos() {
 	}
 
 	if(primero.value == "e" && segundo.value == "s" &&  tercero.value == "t" && cuarto.value == "e"){
-		alert("CORRECTO!");
+		swal("Correcto!", "", "success");
 		document.getElementById('siguiente').className = "visible";
 		var num3 = inputmonedas.value;
 		var num4 = 5;

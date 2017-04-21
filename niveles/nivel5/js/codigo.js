@@ -11,7 +11,7 @@ function validarDatos() {
 		return;
 	}
 	if(primero.value == "v" && segundo.value == "o" && tercero.value == "c" && cuarto.value == "a" && quinto.value == "l" && sexto.value == "e" && septimo.value == "s"){
-		alert("CORRECTO!");
+		swal("Correcto!", "", "success");
 		document.getElementById('siguiente').className = "visible";
 		var num3 = inputmonedas.value;
 		var num4 = 5;

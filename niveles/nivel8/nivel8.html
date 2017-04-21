@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+	<link href="../../css/sweetalert.css" rel="stylesheet">
+	<script src="../../js/sweetalert.min.js"></script>
 </head>
 <body>
 <a href="../../index.html"><img src="../images/botoninicio.png" alt="boton inicio" id="botoninicio"></a>
@@ -26,11 +28,11 @@
 	</div>
 	<div id="respuesta">
 		<button onclick="restarMonedas()" id="letras" name="letras">Letra</button>&nbsp;&nbsp;
-		<input type="text" maxlength="1" size="1" id="primero" name="primero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) segundo.focus()" onclick="limpiarCampo(this)">
-		<input type="text" maxlength="1" size="1" id="segundo" name="segundo" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) tercero.focus()" onclick="limpiarCampo(this)">
-		<input type="text" maxlength="1" size="1" id="tercero" name="tercero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) cuarto.focus()" onclick="limpiarCampo(this)">
-		<input type="text" maxlength="1" size="1" id="cuarto" name="cuarto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) quinto.focus()" onclick="limpiarCampo(this)">
-		<input type="text" maxlength="1" size="1" id="quinto" name="quinto" class="campos" style='text-align:center;' onclick="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="primero" name="primero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) segundo.focus()" onfocus="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="segundo" name="segundo" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) tercero.focus()" onfocus="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="tercero" name="tercero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) cuarto.focus()" onfocus="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="cuarto" name="cuarto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) quinto.focus()" onfocus="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="quinto" name="quinto" class="campos" style='text-align:center;' onfocus="limpiarCampo(this)">
 		<button onclick="validarDatos()">Comprobar</button>
 		<img src="../images/x.png" alt="imagen x" class="oculto" id="x">
 	</div><br>
