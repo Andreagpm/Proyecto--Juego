@@ -59,3 +59,6 @@ function monedasVideo() {
    		localStorage.setItem("monedas", res);
 		}
 }
+function limpiarCampo(elemento) {
+ elemento.value = "";
+}

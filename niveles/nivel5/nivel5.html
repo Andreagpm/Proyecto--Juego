@@ -26,18 +26,18 @@
 	</div>
 	<div id="respuesta">
 		<button onclick="restarMonedas()" id="letras" name="letras">Letra</button>&nbsp;&nbsp;
-		<input type="text" maxlength="1" size="1" id="primero" name="primero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) segundo.focus()">
-		<input type="text" maxlength="1" size="1" id="segundo" name="segundo" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) tercero.focus()">
-		<input type="text" maxlength="1" size="1" id="tercero" name="tercero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) cuarto.focus()">
-		<input type="text" maxlength="1" size="1" id="cuarto" name="cuarto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) quinto.focus()">
-		<input type="text" maxlength="1" size="1" id="quinto" name="quinto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) sexto.focus()">
-		<input type="text" maxlength="1" size="1" id="sexto" name="sexto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) septimo.focus()">
-		<input type="text" maxlength="1" size="1" id="septimo" name="septimo" class="campos" style='text-align:center;'>
+		<input type="text" maxlength="1" size="1" id="primero" name="primero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) segundo.focus()" onclick="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="segundo" name="segundo" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) tercero.focus()" onclick="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="tercero" name="tercero" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) cuarto.focus()" onclick="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="cuarto" name="cuarto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) quinto.focus()" onclick="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="quinto" name="quinto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) sexto.focus()" onclick="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="sexto" name="sexto" class="campos" style='text-align:center;' onkeyup="if (this.value.length == this.getAttribute('maxlength')) septimo.focus()" onclick="limpiarCampo(this)">
+		<input type="text" maxlength="1" size="1" id="septimo" name="septimo" class="campos" style='text-align:center;' onclick="limpiarCampo(this)">
 		<button onclick="validarDatos()">Comprobar</button>
 		<img src="../images/x.png" alt="imagen x" class="oculto" id="x">
 	</div><br>
 	<span class="oculto" id="nobacio"><p>No puede dejar los campos en blanco.</p></span>
-	<span class="oculto" id="siguiente"><a href="../nivel2/nivel2.html">Siguiente</a></span>
+	<span class="oculto" id="siguiente"><a href="../nivel6/nivel6.html">Siguiente</a></span>
 </div>
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>

@@ -10,7 +10,7 @@ function validarDatos() {
 			$("#nobacio").fadeOut(4000);
 		return;
 	}
-	if(primero.value == "v" && segundo.value == "o" && tercero.value == "c" && cuarto.value == "a" && quinto.value == "l" && sexto.value == "e" && septimo.value == "s"){
+	if(primero.value == "s" && segundo.value == "o" && tercero.value == "n" && cuarto.value == "r" && quinto.value == "i" && sexto.value == "s" && septimo.value == "a"){
 		alert("CORRECTO!");
 		document.getElementById('siguiente').className = "visible";
 		var num3 = inputmonedas.value;
@@ -27,7 +27,7 @@ function validarDatos() {
     suma = parseInt(num1)+parseInt(num2);
     document.getElementById("parrafoerrores").value = suma;
 	}if(parrafoerrores.value == "5"){
-		document.getElementById("quinto").value = "l";
+		document.getElementById("septimo").value = "a";
 	}if(parrafoerrores.value == "10"){
 		alert("PISTA: fijate bien en las fotos.");
 	}
@@ -43,7 +43,7 @@ function restarMonedas() {
   	var res;
   	res = parseInt(num4)-parseInt(num5);
    	document.getElementById("inputmonedas").value = res;
-		document.getElementById("tercero").value = "c";
+		document.getElementById("tercero").value = "n";
 		letras.disabled = 'disabled';
 	}
 }
