@@ -1,31 +1,18 @@
 ## Sinopsis
 
-Breve introducción y / o resumen que explique ** qué ** es el proyecto. Esta descripción debe coincidir con las descripciones añadidas para los gestores de paquetes (Gemspec, package.json, etc.)
+Juego basado en el juego de 4 imagenes 1 palabra.
 
 ## Motivación
 
-Breve descripción de la motivación detrás de la creación y mantenimiento del proyecto. Esto debería explicar el **por qué** de la existencia del proyecto.
-
-## Instalación
-
-Explicación de la forma de instalar y comenzar a ejecutar el proyecto
-
-## Tests
-
-Describir y mostrar cómo ejecutar tests de código con ejemplos de código para probar correctamente el proyecto.
-
-## Licencia
-
-Una pequeña reseña que describa la licencia (MIT, Apache, etc.)
+El juego en el que esta basado es un juego que en su momento me atrajo mucho y me engancho bastate, asi que porque no intentar simularlo yo misma.
 
 ## Autores
 
-Indicar los nombres.
+Andrea González Pérez
 
 ## Fecha
-
-Indicar la fecha de creación.
+18/04/2017
 
 ## Versión
 
-Inidicar 1.0 o la versión que se ha creado posterior.
+Esta es la versión 1.0.
